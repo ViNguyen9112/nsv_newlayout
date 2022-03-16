@@ -36,7 +36,7 @@
             </li>
         </ul>
         <div style="display:flex">
-            <div onclick="location.href='al.html';" style="cursor:pointer;" class="tile-progress tile-red">
+            <div onclick="location.href='<?php echo $this->Url->build('/annual_leave', true); ?>';" style="cursor:pointer;" class="tile-progress tile-red">
                 <div class="tile-header">
                     <h3><i class="fa-solid fa-pen-to-square"></i> Apply</h3> </div>
                 <div class="tile-progressbar">
@@ -44,7 +44,7 @@
                 <div class="tile-footer">
                     <h4> AL</h4> </div>
             </div>
-            <div onclick="location.href='ot.html';" style="cursor:pointer;" class="tile-progress tile-red">
+            <div onclick="location.href='<?php echo $this->Url->build('/overtime', true); ?>';" style="cursor:pointer;" class="tile-progress tile-red">
                 <div class="tile-header">
                     <h3><i class="fa-solid fa-pen-to-square"></i> Apply</h3> </div>
                 <div class="tile-progressbar">
