@@ -1,0 +1,35 @@
+.fc-event {
+	text-align: left !important;
+	color: #ffffff !important;
+}
+.main-highlight{
+	height: auto !important;
+	padding-top: 80px !important
+}
+#calendar{
+	width: 80% !important;
+	margin: 0 auto;
+	top: 150px;
+}
+.fc-event {
+    font-size: 12px !important
+}
+.form-group{
+	display: contents;
+	margin: 0 auto;
+}
+.form-search{
+	width: 80%;
+	margin: 0 auto;
+}
+.mt-2{
+	margin-top: 0 !important
+}
+.select2 .select2-container .select2-container--default .select2-container--focus{
+	width: 300px !important
+}
+.fc-today-button{
+	display: none !important
+}
+.fc-sun { color:blue !important; }
+.fc-sat { color:red !important; background-color: #fffadf }

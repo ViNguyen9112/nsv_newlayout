@@ -1,0 +1,8 @@
+//add type cat column 2021/08/09
+
+ALTER TABLE `tblMRepCategory` ADD `TypeCat` INT NOT NULL DEFAULT '1' AFTER `CatName3`;
+
+//add type color table
+ALTER TABLE `tblMRepType` ADD `TypeColor` VARCHAR(10) NULL DEFAULT NULL AFTER `Type3`;
+
+ //end icon

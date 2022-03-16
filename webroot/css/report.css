@@ -1,0 +1,214 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+#survey-form {
+  padding: 0 10px;
+  color: white;
+  /* background-color: rgb(1 58 130 / 70%); */
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+#survey-form #title {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+#survey-form #description {
+  text-align: center;
+}
+
+#survey-form hr {
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid rgba(250, 250, 250, 0.4);
+}
+
+#survey-form fieldset {
+  border: none;
+}
+
+#survey-form fieldset legend, .legend-report {
+  font-weight: bold;
+  width: 100%;
+  background: #042046;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 4px;
+}
+
+#survey-form fieldset input[type=text], #survey-form fieldset input[type=email], #survey-form fieldset input[type=number], #survey-form fieldset select {
+  width: 100%;
+  color: white;
+  font-size: 13px;
+  border: 2px solid rgba(250, 250, 250, 0.4);
+  background-color: transparent;
+  padding: 0.5rem;
+  margin: 0 0 20px 0;
+  border-radius: 4px;
+}
+
+#survey-form fieldset input[type=text]:focus, #survey-form fieldset input[type=email]:focus, #survey-form fieldset input[type=number]:focus, #survey-form fieldset select:focus {
+  outline: none;
+}
+
+#survey-form fieldset input[type=text]::placeholder, #survey-form fieldset input[type=email]::placeholder, #survey-form fieldset input[type=number]::placeholder, #survey-form fieldset select::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#survey-form fieldset#personal-info label, #survey-form fieldset#roles label {
+  font-weight: bold;
+}
+
+#survey-form fieldset#roles select {
+  padding: 10px;
+  /* margin-top: 20px; */
+}
+
+#survey-form fieldset#roles select option {
+  color: black;
+  background: transparent;
+}
+
+#survey-form fieldset#reach-method {
+  margin-top: 0.2rem;
+}
+
+#survey-form fieldset#reach-method, #survey-form fieldset#checkreport {
+  margin: 0 0 5px;
+}
+
+#survey-form fieldset#reach-method label, #survey-form fieldset#checkreport label, .label-report {
+  display: block;
+  margin-bottom: 5px;
+  display: flex;
+  /* align-items: center; */
+  vertical-align: top;
+}
+
+#survey-form fieldset#reach-method label input[type=radio], #survey-form fieldset#reach-method label input[type=checkbox], #survey-form fieldset#checkreport label input[type=radio], #survey-form fieldset#checkreport label input[type=checkbox] {
+  /* width: 20px; */
+  height: 16px;
+  margin-right: 10px;
+  vertical-align: top;
+  line-height: 10px;
+  top: -10px;
+  margin-top: 3px;
+}
+
+#survey-form fieldset#comment legend {
+  margin-bottom: 10px;
+}
+
+#survey-form fieldset#comment textarea, .textarea-report {
+  width: 100%;
+  resize: none;
+  padding: 0.5rem;
+  font-size: 13px;
+  margin: 0px 0 0 0;
+  border-radius: 4px;
+}
+
+#survey-form fieldset#comment textarea:focus, .textarea-report:focus {
+  outline: none;
+}
+
+#survey-form input[type=submit] {
+  width: 100%;
+  padding: 10px 0;
+  margin: 7px 0;
+  background-color: #6ba916;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+  font-size: 14px;
+}
+
+#survey-form input[type=submit]:hover {
+  background-color: #5d9213;
+}
+
+#survey-form label{
+    line-height: 24px !important;
+}
+
+.report-check, .not-check {
+    display: none;
+}
+
+.form-report{
+    border:2px solid #ccc;
+    padding:5px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.legend-report{
+    padding: 2px 5px;
+    font-size: 16px;
+    color:#d6cece;
+}
+
+.fieldset-report {
+    margin-bottom: 10px;
+}
+
+.type-report {
+    color:#fff;
+}
+
+.checkbox-report {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.content-report, .form-report {
+    display:none;
+}
+
+.content-report {
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+.item-image {
+    height: 4vw;
+    width: 4vw;
+    background-size: cover;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#previewImages{
+    width:100%;
+}
+.scrollBtn{
+    position: absolute;
+    bottom: 1vh;
+    left: 1vw;
+    /* z-index: 9999; */
+    font-size: 30px;
+    border: none;
+    outline: none;
+    /* background-color: #052852; */
+    background: #fff;
+    color: #37b1ab;
+    cursor: pointer;
+    /* padding: 10px 8px 8px 8px; */
+    /* border-radius: 4px; */
+    transition: all .2s;
+}
+.fileinput-button {
+    width: 140px;
+    line-height: 2;
+    height: 20px;
+}
+
+
+
+
